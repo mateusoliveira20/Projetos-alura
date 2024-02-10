@@ -48,7 +48,7 @@ function gerarNumeroAleatorio() {
         return gerarNumeroAleatorio();
     } else {
         listaDeNumeroSorteados.push(numeroEscolhido);
-        alert(listaDeNumeroSorteados)
+        console.log(listaDeNumeroSorteados)
         return numeroEscolhido;
     }
 }
